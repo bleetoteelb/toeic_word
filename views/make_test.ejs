@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type='text/javascript' src='/jq/jquery.js'></script>
+    <script type='text/javascript' src='/javascripts/get_option_list.js'></script>
+  </head>
+  <body>
+	<a href='/'>홈으로 돌아가기</a></br></br>
+    <p class='title'> 테스트를 만들어주세요.</p>
+	<strike>선택된 각챕터의 기입한 갯수만큼  랜덤하게 선택됩니다.</strike></br>
+	만들어진 결과는 테스트 페이지에서 확인해주세요.</br></br>
+
+	<strike>귀찮아서 invalid value 체크는 따로 안했습니다.</br>
+	<strong>정상적인 값만 입력해주세요</strong></strike></br></br></br>
+
+	<table aling='center'>
+	<tr><td>테스트 이름 :</td>
+		<td> <input id='test_name' placeholder='ex>어려운버전' width='100px'></input></td></tr>
+	<tr><td>만든이 :</td>
+		<td> <input id='maker_name' placeholder='ex>홍길동' width='100px'></input></td></tr>
+	<tr><td></td><td></td></tr>
+<tr><td>	<span class='highlight'>9 / 10 / 21 / 22 하세요</span></br></td><td></td></tr>
+	<tr><td>챕터선택</td><td>갯수</td></tr>
+	<tr><td><select id='sel1'></select></td>
+		<!--<td><input type='text' id='sel4' placeholder='숫자만!'></input></td>--></tr>
+    <tr><td><select id='sel2'></select></td>
+		<!--<td><input type='text' id='sel5' placeholder='숫자만!'></input></td>--></tr>
+    <tr><td><select id='sel3'></select></td>
+	<!--	<td><input type='text' id='sel6' placeholder='숫자만!'></input></td>--></tr>
+	<tr><td><select id='sel4'></select></td></tr>
+	</table>
+	<strike>
+	<span class='highlight'>*다시 말하지만 이상한 값 넣지 말아주세요.</span><p style="font-size:8px;">서버가터져요....<p></strike>
+	</br></br>
+	<input type='button' value='만들기' id='make_button'></input></br>
+	<span class='highlight'>*이제 기다리지 않으셔도 바로 됩니다! </br></span>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+body {
+    padding: 50px;
+	font-family: 'Jeju Myeongjo';
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+select {
+    width: 100px;
+    height: 25px;
+    padding-left: 8px;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+input {
+	height: 23px;
+	border: 1px solid;
+	border-radius: 3px;
+}
+
+textarea {
+	width:300px;
+	height:300px;
+}
+
+.blank_table ,.blank_table td{
+	border: 0px !important;
+	background: black !important;
+}
+
+.test_table{
+	border-collapse: collapse;
+	border-radius: 3px;	
+	padding: 10px;
+}
+.white_table{
+	background: #ffffff;
+}
+.select_table1{
+	background: #E0ECF8;
+}
+.select_table2{
+	background: #CEE3F6; 
+}
+.select_table3{
+	background: #A9D0F5;
+}
+.select_table4{
+	background: #81BEF7;
+}
+.select_table5{
+	background: #58ACFA;
+}
+.select_table6{
+	background: #0080FF;
+}
+.test_table tr, .test_table td{
+	border: 1px solid #444444;
+	border-radius: 3px;
+	padding: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	font-size: 17px;
+}
+
+.test_table img {
+	cursor: pointer;
+}
+
+.audio_img img{
+	cursor: pointer;
+}
+
+.table_title, .table_title td{
+	background: #A4A4A4;
+}
+
+.table_sum, .table_sum td{
+	background: #E6E6E6;
+}
+
+.odd, .odd td {
+	background: #E6E6E6;
+}
+
+.penalty_table {
+	border: 1px solid #444444;
+	border-radius: 3px;
+	border-collapse: collapse;
+}
+.penalty tr, .penalty td {
+	
+}
+
+.button_custom {
+	padding: .1rem !important;
+	height: 25px !important;
+	line-height: 0.5 !important;
+}
+
+.highlight {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.button_style {
+	font-size: 20px;
+	font-weight: bold;
+    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    display: block;
+    margin: auto;
+    max-width: 180px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px 30px;
+	margin-left: 5px;
+}
+
+a.button {
+    color: rgba(30, 22, 54, 0.6);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.button:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+a.button2 {
+    color: rgba(30, 22, 54, 0.6);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.button2:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 80px 0px 2px inset;
+}
+
+input[type=checkbox].toggle-switch{
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	width: 3em;
+	height: 1.5em;
+	border-radius: 1.5em;
+	background-color: #ddd;
+	border-width: 0;
+	cursor: pointer;
+	transition: background-color 0.09s ease-in-out;
+	position: relative;
+}
+
+input[type=checkbox].toggle-switch:checked{
+	background-color: #3af;
+}
+
+input[type=checkbox].toggle-switch::after{
+	content: '';
+	width: 1.5em;
+	height: 1.5em;
+	background-color: white;
+	border-radius: 1.5em;
+	position: absolute;
+	transform: scale(0.7);
+	left: 0;
+	transition: left 0.09s ease-in-out;
+	box-shadow: 0 0.1em rgba(0, 0, 0, 0.5);	
+}
+
+input[type=checkbox].toggle-switch:checked::after{
+	left: 1.5em;
+}
